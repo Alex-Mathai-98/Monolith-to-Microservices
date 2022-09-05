@@ -1,0 +1,32 @@
+{
+  "icu_path": "inter_class_usage.json",
+  "callgraph_path" : "callgraph.dot",
+  "service_path" : "service.json",
+  "db_path" : "db.json",
+  "seeds_path" : "seeds.txt",
+
+  "rngseed" : 0,
+  "gcn_features" : ["INH", "PCC", "EP"],
+
+  "struct_path" : "struct.csv",
+  "content_path" : "content.csv",
+  "classnames_path" : "clustered_classes",
+  "skipped_path" : "skipped_classes",
+  "embedding_file" : "embeddings.pkl",
+  "output_path" : "intschema.json",
+
+  "ignore_file" : "ignore_classes.txt",
+
+  "csv_path" : null,
+  "copybook_data_path" : null,
+  "mode" : null,
+
+  "model_config" : {
+    "hidden1" : 64,
+    "hidden2" : 32,
+    "dropout" : 0.2,
+    "lr" : 0.0001,
+    "preepochs" : 300,
+    "epochs" : 500
+  }
+}

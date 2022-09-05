@@ -1,0 +1,122 @@
+[
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/config/dataServices], entry: com.acmeair.config.AcmeAirConfiguration, entrydisplayname: AcmeAirConfiguration.getDataServiceInfo}",
+    "class_method_name": [
+      "com.acmeair.config.AcmeAirConfiguration.getDataServiceInfo"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/config/activeDataService], entry: com.acmeair.config.AcmeAirConfiguration, entrydisplayname: AcmeAirConfiguration.getActiveDataServiceInfo}",
+    "class_method_name": [
+      "com.acmeair.config.AcmeAirConfiguration.getActiveDataServiceInfo"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/config/runtime], entry: com.acmeair.config.AcmeAirConfiguration, entrydisplayname: AcmeAirConfiguration.getRuntimeInfo}",
+    "class_method_name": [
+      "com.acmeair.config.AcmeAirConfiguration.getRuntimeInfo"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/config/countBookings], entry: com.acmeair.config.AcmeAirConfiguration, entrydisplayname: AcmeAirConfiguration.countBookings}",
+    "class_method_name": [
+      "com.acmeair.config.AcmeAirConfiguration.countBookings"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/config/countCustomers], entry: com.acmeair.config.AcmeAirConfiguration, entrydisplayname: AcmeAirConfiguration.countCustomer}",
+    "class_method_name": [
+      "com.acmeair.config.AcmeAirConfiguration.countCustomer"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/config/countSessions], entry: com.acmeair.config.AcmeAirConfiguration, entrydisplayname: AcmeAirConfiguration.countCustomerSessions}",
+    "class_method_name": [
+      "com.acmeair.config.AcmeAirConfiguration.countCustomerSessions"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/config/countFlights], entry: com.acmeair.config.AcmeAirConfiguration, entrydisplayname: AcmeAirConfiguration.countFlights}",
+    "class_method_name": [
+      "com.acmeair.config.AcmeAirConfiguration.countFlights"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/config/countFlightSegments], entry: com.acmeair.config.AcmeAirConfiguration, entrydisplayname: AcmeAirConfiguration.countFlightSegments}",
+    "class_method_name": [
+      "com.acmeair.config.AcmeAirConfiguration.countFlightSegments"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/config/countAirports], entry: com.acmeair.config.AcmeAirConfiguration, entrydisplayname: AcmeAirConfiguration.countAirports}",
+    "class_method_name": [
+      "com.acmeair.config.AcmeAirConfiguration.countAirports"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/loader/query], entry: com.acmeair.config.LoaderREST, entrydisplayname: LoaderREST.queryLoader}",
+    "class_method_name": [
+      "com.acmeair.config.LoaderREST.queryLoader"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/loader/load], entry: com.acmeair.config.LoaderREST, entrydisplayname: LoaderREST.loadDB}",
+    "class_method_name": [
+      "com.acmeair.config.LoaderREST.loadDB"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: POST, uri: [/login], entry: com.acmeair.web.LoginREST, entrydisplayname: LoginREST.login}",
+    "class_method_name": [
+      "com.acmeair.web.LoginREST.login"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/login/logout], entry: com.acmeair.web.LoginREST, entrydisplayname: LoginREST.logout}",
+    "class_method_name": [
+      "com.acmeair.web.LoginREST.logout"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: POST, uri: [/flights/queryflights], entry: com.acmeair.web.FlightsREST, entrydisplayname: FlightsREST.getTripFlights}",
+    "class_method_name": [
+      "com.acmeair.web.FlightsREST.getTripFlights"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: POST, uri: [/bookings/bookflights], entry: com.acmeair.web.BookingsREST, entrydisplayname: BookingsREST.bookFlights}",
+    "class_method_name": [
+      "com.acmeair.web.BookingsREST.bookFlights"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/bookings/bybookingnumber/{userid}/{number}], entry: com.acmeair.web.BookingsREST, entrydisplayname: BookingsREST.getBookingByNumber}",
+    "class_method_name": [
+      "com.acmeair.web.BookingsREST.getBookingByNumber"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/bookings/byuser/{user}], entry: com.acmeair.web.BookingsREST, entrydisplayname: BookingsREST.getBookingsByUser}",
+    "class_method_name": [
+      "com.acmeair.web.BookingsREST.getBookingsByUser"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: POST, uri: [/bookings/cancelbooking], entry: com.acmeair.web.BookingsREST, entrydisplayname: BookingsREST.cancelBookingsByNumber}",
+    "class_method_name": [
+      "com.acmeair.web.BookingsREST.cancelBookingsByNumber"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: GET, uri: [/customer/byid/{custid}], entry: com.acmeair.web.CustomerREST, entrydisplayname: CustomerREST.getCustomer}",
+    "class_method_name": [
+      "com.acmeair.web.CustomerREST.getCustomer"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jaxrs, method: POST, uri: [/customer/byid/{custid}], entry: com.acmeair.web.CustomerREST, entrydisplayname: CustomerREST.putCustomer}",
+    "class_method_name": [
+      "com.acmeair.web.CustomerREST.putCustomer"
+    ]
+  }
+]

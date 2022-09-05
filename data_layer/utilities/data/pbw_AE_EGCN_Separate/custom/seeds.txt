@@ -1,0 +1,5 @@
+inventory-res, com.ibm.websphere.samples.pbw.ejb.CatalogMgr, com.ibm.websphere.samples.pbw.war.ShoppingItem
+customer-res, com.ibm.websphere.samples.pbw.ejb.CustomerMgr
+backorder-res, com.ibm.websphere.samples.pbw.ejb.BackOrderMgr
+orderitem-res, com.ibm.websphere.samples.pbw.jpa.Order, order-res
+supplier-res, com.ibm.websphere.samples.pbw.ejb.SuppliersBean

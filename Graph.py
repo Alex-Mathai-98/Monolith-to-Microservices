@@ -4,7 +4,7 @@ from NN_Models.CompositeModelClass import CompositeModel
 from NN_Models.Losses.loss_fns import compute_attribute_loss,compute_structure_loss
 from NN_Models.Losses.kmeans import Clustering
 from data_layer.DataModel import DataModel
-# from convert_outputs import OutputFormatter
+from convert_outputs import OutputFormatter
 from typing import List
 import torch
 from torch import optim
@@ -17,7 +17,7 @@ import numpy as np
 import sys
 import pickle
 import argparse
-# from metric import get_modularity,get_ned,get_coverage,get_structural_modularity
+from metric import get_modularity,get_ned,get_coverage,get_structural_modularity
 from time import sleep
 
 class Graph(object) :
@@ -260,39 +260,39 @@ class Graph(object) :
             # if we are going to train the model multiple times
             output_file = output_file[:-5] + "_{}".format(run_num) + ".json"
 
-        # formatter = OutputFormatter(cluster_dict, icu_file, callgraph_file, service_file, resource_file)
-        # formatter.write_to_file(output_file)
+        formatter = OutputFormatter(cluster_dict, icu_file, callgraph_file, service_file, resource_file)
+        formatter.write_to_file(output_file)
 
-        # self.metric_calculation(run_num)
+        self.metric_calculation(run_num)
 
         return cluster_dict
 
-    # def metric_calculation(self,run_num=None) :
+    def metric_calculation(self,run_num=None) :
 
-    #     if run_num is None :
-    #         run_num = 1
+        if run_num is None :
+            run_num = 1
 
-    #     if run_num == 1 :
-    #         result_file = os.path.join(self.data_model.basepath,"clusters" + self.config["code"] + "_cma_format.json")
-    #         mod = get_modularity(result_file)
-    #         ned = get_ned(result_file)
-    #         coverage = get_coverage(result_file)
-    #         struct_mod = get_structural_modularity(result_file)
-    #     else :
-    #         result_file = os.path.join(self.data_model.basepath,"clusters" + self.config["code"] + "_cma_format_{}.json".format(run_num))
-    #         mod = get_modularity(result_file)
-    #         ned = get_ned(result_file)
-    #         coverage = get_coverage(result_file)
-    #         struct_mod = get_structural_modularity(result_file)
+        if run_num == 1 :
+            result_file = os.path.join(self.data_model.basepath,"clusters" + self.config["code"] + "_cma_format.json")
+            mod = get_modularity(result_file)
+            ned = get_ned(result_file)
+            coverage = get_coverage(result_file)
+            struct_mod = get_structural_modularity(result_file)
+        else :
+            result_file = os.path.join(self.data_model.basepath,"clusters" + self.config["code"] + "_cma_format_{}.json".format(run_num))
+            mod = get_modularity(result_file)
+            ned = get_ned(result_file)
+            coverage = get_coverage(result_file)
+            struct_mod = get_structural_modularity(result_file)
         
         
-    #     if run_num == 1 :
-    #         # first time
-    #         with open(os.path.join(self.data_model.basepath,"metrics.txt"), "w") as f :
-    #             f.write("Run No\tMod\tNED\tStruct Mod\tCoverage\n{}\t{}\t{}\t{}\t{}\n".format(run_num,mod,ned,struct_mod,coverage))
-    #     else :
-    #         with open(os.path.join(self.data_model.basepath,"metrics.txt"), "a") as f :
-    #             f.write("{}\t{}\t{}\t{}\t{}\n".format(run_num,mod,ned,struct_mod,coverage))
+        if run_num == 1 :
+            # first time
+            with open(os.path.join(self.data_model.basepath,"metrics.txt"), "w") as f :
+                f.write("Run No\tMod\tNED\tStruct Mod\tCoverage\n{}\t{}\t{}\t{}\t{}\n".format(run_num,mod,ned,struct_mod,coverage))
+        else :
+            with open(os.path.join(self.data_model.basepath,"metrics.txt"), "a") as f :
+                f.write("{}\t{}\t{}\t{}\t{}\n".format(run_num,mod,ned,struct_mod,coverage))
 
     def test(self,run_num=None) :
         with torch.no_grad() :

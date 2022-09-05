@@ -1,0 +1,54 @@
+{
+
+  "code" : "_with_edge_loss",
+  "node_dimension" : 436,
+  "num_clusters" : 6,
+
+  "pre_train" :{
+    "node_loss_alpha" : 0.5,
+    "structure_loss_alpha" : 0.5,
+    "edge_loss_alpha": 0,
+    "clustering_loss_alpha" : 0,
+    "lr" : 0.01
+  },
+
+  "train" : {
+    "node_loss_alpha" : 0.1,
+    "structure_loss_alpha" : 0.1,
+    "edge_loss_alpha": 0.1,
+    "clustering_loss_alpha" : 0.7,
+    "lr" : 0.002
+  },
+
+  "icu_path": "inter_class_usage.json",
+  "callgraph_path" : "callgraph.dot",
+  "service_path" : "service.json",
+  "db_path" : "db.json",
+  "seeds_path" : "seeds.txt",
+
+  "rngseed" : 0,
+  "gcn_features" : ["INH", "PCC", "EP"],
+
+  "struct_path" : "struct.csv",
+  "content_path" : "content.csv",
+  "classnames_path" : "clustered_classes",
+  "skipped_path" : "skipped_classes",
+  "embedding_file" : "embeddings.pkl",
+  "output_path" : "intschema.json",
+
+  "ignore_file" : "ignore_classes.txt",
+
+  "csv_path" : null,
+  "copybook_data_path" : null,
+  "mode" : null,
+
+  "model_config" : {
+    "common_space" : 64,
+    "hidden1" : 64,
+    "hidden2" : 32,
+    "dropout" : 0.2,
+    "lr" : 0.0001,
+    "preepochs" : 300,
+    "epochs" : 500
+  }
+}

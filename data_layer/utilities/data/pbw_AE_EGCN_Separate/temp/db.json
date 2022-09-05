@@ -1,0 +1,202 @@
+[
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.createOrder",
+    "db_name": "OrderItem",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.createOrder",
+    "db_name": "Order",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.createOrder",
+    "db_name": "OrderItem",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.createOrder",
+    "db_name": "Order",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.createOrder",
+    "db_name": "Inventory",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.createOrder",
+    "db_name": "Order",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.createOrder",
+    "db_name": "Customer",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.CustomerMgr.updateUser",
+    "db_name": "Customer",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.CustomerMgr.updateUser",
+    "db_name": "Customer",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.setBackOrderStatus",
+    "db_name": "BackOrder",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.getBackOrderInventoryID",
+    "db_name": "BackOrder",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.getBackOrderInventoryID",
+    "db_name": "Inventory",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.CatalogMgr.addItem",
+    "db_name": "Inventory",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.getInventoryItem",
+    "db_name": "Inventory",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.war.ShoppingItem.getBackOrder",
+    "db_name": "BackOrder",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.createBackOrder",
+    "db_name": "BackOrder",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.createBackOrder",
+    "db_name": "Inventory",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.war.ShoppingItem.setBackOrder",
+    "db_name": "Inventory",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.setBackOrderOrderDate",
+    "db_name": "BackOrder",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.war.ShoppingItem.setInventoryId",
+    "db_name": "Inventory",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.CustomerMgr.getCustomer",
+    "db_name": "Customer",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.CatalogMgr.getItemInventory",
+    "db_name": "Inventory",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.backOrder",
+    "db_name": "Inventory",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.backOrder",
+    "db_name": "BackOrder",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.ShoppingCartBean.backOrder",
+    "db_name": "BackOrder",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.deleteBackOrder",
+    "db_name": "BackOrder",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.deleteBackOrder",
+    "db_name": "BackOrder",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.MailerBean.createMessage",
+    "db_name": "Order",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.jpa.Order.<init>",
+    "db_name": "OrderItem",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.SuppliersBean.updateSupplier",
+    "db_name": "Supplier",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.war.ShoppingItem.setID",
+    "db_name": "Inventory",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.setBackOrderQuantity",
+    "db_name": "BackOrder",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.getBackOrderQuantity",
+    "db_name": "BackOrder",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.SuppliersBean.createSupplier",
+    "db_name": "Supplier",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.SuppliersBean.createSupplier",
+    "db_name": "Supplier",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.CatalogMgr.getInv",
+    "db_name": "Inventory",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.CustomerMgr.createCustomer",
+    "db_name": "Customer",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.CatalogMgr.getInvUpdate",
+    "db_name": "Inventory",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.war.BackOrderItem.<init>",
+    "db_name": "Inventory",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.pbw.ejb.CustomerMgr.verifyUserAndPassword",
+    "db_name": "Customer",
+    "crud": "R"
+  }
+]

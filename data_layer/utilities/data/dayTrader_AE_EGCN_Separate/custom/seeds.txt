@@ -1,0 +1,6 @@
+quoteejb-dbtable,com.ibm.websphere.samples.daytrader.web.prims.PingJDBCWrite,com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead,com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead2JSP,com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity2JSP,com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2TwoPhase,com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity,com.ibm.websphere.samples.daytrader.web.TestServlet,com.ibm.websphere.samples.daytrader.entities.HoldingDataBean
+http://localhost:9080/daytrader/was_v7_64-bit_performance.pdf-file,com.ibm.websphere.samples.daytrader.web.prims.PingServlet2PDF,com.ibm.websphere.samples.daytrader.web.prims.PingServlet2PDF
+accountprofileejb-dbtable,com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2One,com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF,keygenejb-dbtable,com.ibm.websphere.samples.daytrader.direct.KeySequenceDirect
+accountejb-dbtable,com.ibm.websphere.samples.daytrader.entities.AccountDataBean
+orderejb-dbtable,com.ibm.websphere.samples.daytrader.web.OrdersAlertFilter,com.ibm.websphere.samples.daytrader.entities.OrderDataBean
+holdingejb-dbtable

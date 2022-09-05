@@ -1,0 +1,4 @@
+customersession""-res, com.acmeair.mongo.services.AuthServiceImpl
+booking""-res, com.acmeair.mongo.services.BookingServiceImpl 
+flight""-res, flightsegment""-res, airportcodemapping""-res, com.acmeair.mongo.services.FlightServiceImpl 
+customer""-res, com.acmeair.mongo.services.CustomerServiceImpl

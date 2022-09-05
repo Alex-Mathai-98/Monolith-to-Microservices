@@ -1,0 +1,19 @@
+
+
+
+
+dayTrader With Edge Loss - With Seeds (6)
+EM=96.68    Txn Purity : 1.0	 Modularity : 0.031906495329152476	 Structural Modularity : 0.021303747534516776	 Interface Count : 6.666666666666667	 NED : 0.5053763440860215
+EM=95.40    Txn Purity : 1.0	 Modularity : 0.07577518529889106	 Structural Modularity : 0.01365665177725512	 Interface Count : 6.0	 NED : 0.6129032258064516
+EM=96.68    Txn Purity : 1.0	 Modularity : 0.10912898557080922	 Structural Modularity : 0.021496764892826745	 Interface Count : 5.666666666666667	 NED : 0.6344086021505376
+EM=96.68    Txn Purity : 1.0	 Modularity : 0.12591553002061456	 Structural Modularity : 0.05582237807887158	 Interface Count : 6.0	 NED : 0.4838709677419355
+EM=95.40    Txn Purity : 1.0	 Modularity : 0.10651945090127725	 Structural Modularity : 0.030651107319438972	 Interface Count : 6.333333333333333	 NED : 0.5806451612903226
+
+
+dayTrader Without Edge Loss - With Seeds (6)
+Txn Purity : 1.0	 Modularity : 0.11158501820095683	 Structural Modularity : 0.020585010752916123	 Interface Count : 5.166666666666667	 NED : 1.0
+Txn Purity : 1.0	 Modularity : 0.09830709179422023	 Structural Modularity : 0.018003683470601536	 Interface Count : 6.5	 NED : 0.6559139784946236
+Txn Purity : 1.0	 Modularity : 0.1411231963510383	 Structural Modularity : 0.03626196468876	 Interface Count : 5.666666666666667	 NED : 0.5806451612903226
+Txn Purity : 1.0	 Modularity : 0.08712337178193998	 Structural Modularity : 0.004481102324362954	 Interface Count : 6.0	 NED : 1.0
+Txn Purity : 1.0	 Modularity : 0.1102912152975757	 Structural Modularity : 0.028762345775993493	 Interface Count : 5.666666666666667	 NED : 0.5698924731182796
+

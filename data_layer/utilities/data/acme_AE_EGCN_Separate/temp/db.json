@@ -1,0 +1,152 @@
+[
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.countAirports",
+    "db_name": "airportCodeMapping\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.CustomerServiceImpl.getCustomerByUsername",
+    "db_name": "customer\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.AuthServiceImpl.dropSessions",
+    "db_name": "customerSession\"\"",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.AuthServiceImpl.removeSession",
+    "db_name": "customerSession\"\"",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.dropFlights",
+    "db_name": "airportCodeMapping\"\"",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.dropFlights",
+    "db_name": "flight\"\"",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.dropFlights",
+    "db_name": "flightSegment\"\"",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.BookingServiceImpl.bookFlight",
+    "db_name": "booking\"\"",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.createNewFlight",
+    "db_name": "flight\"\"",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.storeFlightSegment",
+    "db_name": "flightSegment\"\"",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.AuthServiceImpl.invalidateSession",
+    "db_name": "customerSession\"\"",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.BookingServiceImpl.getBookingsByUser",
+    "db_name": "booking\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.BookingServiceImpl.getBooking",
+    "db_name": "booking\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.BookingServiceImpl.cancelBooking",
+    "db_name": "booking\"\"",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.AuthServiceImpl.countSessions",
+    "db_name": "customerSession\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.getFlight",
+    "db_name": "flight\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.getFlightBySegment",
+    "db_name": "flight\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.CustomerServiceImpl.count",
+    "db_name": "customer\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.BookingServiceImpl.count",
+    "db_name": "booking\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.CustomerServiceImpl.dropCustomers",
+    "db_name": "customer\"\"",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.AuthServiceImpl.createSession",
+    "db_name": "customerSession\"\"",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.CustomerServiceImpl.getCustomer",
+    "db_name": "customer\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.countFlights",
+    "db_name": "flight\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.BookingServiceImpl.dropBookings",
+    "db_name": "booking\"\"",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.getFlightSegment",
+    "db_name": "flightSegment\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.AuthServiceImpl.getSession",
+    "db_name": "customerSession\"\"",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.CustomerServiceImpl.updateCustomer",
+    "db_name": "customer\"\"",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.storeAirportMapping",
+    "db_name": "airportCodeMapping\"\"",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.CustomerServiceImpl.createCustomer",
+    "db_name": "customer\"\"",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.acmeair.mongo.services.FlightServiceImpl.countFlightSegments",
+    "db_name": "flightSegment\"\"",
+    "crud": "R"
+  }
+]

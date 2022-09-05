@@ -1,0 +1,284 @@
+[
+  {
+    "service_entry_name": "{type: servlet, servlet: AccountServlet, uri: [/servlet/AccountServlet], entry: com.ibm.websphere.samples.pbw.war.AccountServlet, entrydisplayname: AccountServlet.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountServlet.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AccountServlet, uri: [/servlet/AccountServlet], entry: com.ibm.websphere.samples.pbw.war.AccountServlet, entrydisplayname: AccountServlet.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountServlet.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AccountServlet, uri: [/servlet/AccountServlet], entry: com.ibm.websphere.samples.pbw.war.AccountServlet, entrydisplayname: AccountServlet.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountServlet.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: ImageServlet, uri: [/servlet/ImageServlet], entry: com.ibm.websphere.samples.pbw.war.ImageServlet, entrydisplayname: ImageServlet.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.ImageServlet.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: ImageServlet, uri: [/servlet/ImageServlet], entry: com.ibm.websphere.samples.pbw.war.ImageServlet, entrydisplayname: ImageServlet.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.ImageServlet.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: ImageServlet, uri: [/servlet/ImageServlet], entry: com.ibm.websphere.samples.pbw.war.ImageServlet, entrydisplayname: ImageServlet.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.ImageServlet.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.utils.Util, entrydisplayname: Util.debug}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.utils.Util.debug"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.utils.Util, entrydisplayname: Util.<clinit>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.utils.Util.<clinit>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.BackOrderMgr, entrydisplayname: BackOrderMgr.findBackOrders}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.findBackOrders"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.BackOrderItem, entrydisplayname: BackOrderItem.<init>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem.<init>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.BackOrderItem, entrydisplayname: BackOrderItem.getBackOrderID}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem.getBackOrderID"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.BackOrderItem, entrydisplayname: BackOrderItem.getInventory}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem.getInventory"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.jpa.Inventory, entrydisplayname: Inventory.getInventoryId}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.jpa.Inventory.getInventoryId"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.CatalogMgr, entrydisplayname: CatalogMgr.getItemInventory}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.CatalogMgr.getItemInventory"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.jpa.Inventory, entrydisplayname: Inventory.getQuantity}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.jpa.Inventory.getQuantity"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.BackOrderItem, entrydisplayname: BackOrderItem.setInventoryQuantity}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem.setInventoryQuantity"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.jpa.Inventory, entrydisplayname: Inventory.getName}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.jpa.Inventory.getName"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.BackOrderItem, entrydisplayname: BackOrderItem.setName}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem.setName"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.BackOrderItem, entrydisplayname: BackOrderItem.getStatus}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem.getStatus"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.BackOrderItem, entrydisplayname: BackOrderItem.getSupplierOrderID}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem.getSupplierOrderID"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.BackOrderItem, entrydisplayname: BackOrderItem.getLowDate}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem.getLowDate"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.BackOrderItem, entrydisplayname: BackOrderItem.getOrderDate}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.BackOrderItem.getOrderDate"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.BackOrderMgr, entrydisplayname: BackOrderMgr.getBackOrderInventoryID}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.getBackOrderInventoryID"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.BackOrderMgr, entrydisplayname: BackOrderMgr.getBackOrderQuantity}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.getBackOrderQuantity"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.CatalogMgr, entrydisplayname: CatalogMgr.setItemQuantity}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.CatalogMgr.setItemQuantity"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.BackOrderMgr, entrydisplayname: BackOrderMgr.updateStock}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.updateStock"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.BackOrderMgr, entrydisplayname: BackOrderMgr.deleteBackOrder}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.deleteBackOrder"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.BackOrderMgr, entrydisplayname: BackOrderMgr.setBackOrderQuantity}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.BackOrderMgr.setBackOrderQuantity"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.SuppliersBean, entrydisplayname: SuppliersBean.getSupplier}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.SuppliersBean.getSupplier"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.ejb.SuppliersBean, entrydisplayname: SuppliersBean.updateSupplier}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.ejb.SuppliersBean.updateSupplier"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.Populate, entrydisplayname: Populate.<init>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.Populate.<init>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: AdminServlet, uri: [/servlet/AdminServlet], entry: com.ibm.websphere.samples.pbw.war.Populate, entrydisplayname: Populate.doPopulate}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.Populate.doPopulate"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/product.jsf, /checkout_final.jsf, /PlantTemplate.jsf, /cart.jsf], entry: com.ibm.websphere.samples.pbw.war.ShoppingBean, entrydisplayname: ShoppingBean.performShopping}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.ShoppingBean.performShopping"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/product.jsf], entry: com.ibm.websphere.samples.pbw.war.ShoppingBean, entrydisplayname: ShoppingBean.performAddToCart}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.ShoppingBean.performAddToCart"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/account.jsf, /PlantTemplate.jsf, /register.jsf], entry: com.ibm.websphere.samples.pbw.war.AccountBean, entrydisplayname: AccountBean.performLogin}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountBean.performLogin"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/account.jsf, /register.jsf], entry: com.ibm.websphere.samples.pbw.war.AccountBean, entrydisplayname: AccountBean.performAccountUpdate}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountBean.performAccountUpdate"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/checkout_final.jsf, /PlantTemplate.jsf, /orderinfo.jsf], entry: com.ibm.websphere.samples.pbw.war.ShoppingBean, entrydisplayname: ShoppingBean.performCart}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.ShoppingBean.performCart"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/checkout_final.jsf, /cart.jsf], entry: com.ibm.websphere.samples.pbw.war.AccountBean, entrydisplayname: AccountBean.performOrderInfo}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountBean.performOrderInfo"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/checkout_final.jsf], entry: com.ibm.websphere.samples.pbw.war.AccountBean, entrydisplayname: AccountBean.performCompleteCheckout}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountBean.performCompleteCheckout"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/PlantTemplate.jsf], entry: com.ibm.websphere.samples.pbw.war.HelpBean, entrydisplayname: HelpBean.performHelp}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.HelpBean.performHelp"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/PlantTemplate.jsf], entry: com.ibm.websphere.samples.pbw.war.AccountBean, entrydisplayname: AccountBean.performAccount}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountBean.performAccount"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/promo.jsf, /shopping.jsf], entry: com.ibm.websphere.samples.pbw.war.ShoppingBean, entrydisplayname: ShoppingBean.performProductDetail}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.ShoppingBean.performProductDetail"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/cart.jsf], entry: com.ibm.websphere.samples.pbw.war.ShoppingBean, entrydisplayname: ShoppingBean.performRecalculate}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.ShoppingBean.performRecalculate"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/help.jsf], entry: com.ibm.websphere.samples.pbw.war.HelpBean, entrydisplayname: HelpBean.performDBReset}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.HelpBean.performDBReset"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/orderinfo.jsf], entry: com.ibm.websphere.samples.pbw.war.AccountBean, entrydisplayname: AccountBean.performCheckoutFinal}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountBean.performCheckoutFinal"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/login.jsf], entry: com.ibm.websphere.samples.pbw.war.AccountBean, entrydisplayname: AccountBean.performLoginComplete}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountBean.performLoginComplete"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/login.jsf], entry: com.ibm.websphere.samples.pbw.war.AccountBean, entrydisplayname: AccountBean.performRegister}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.pbw.war.AccountBean.performRegister"
+    ]
+  }
+]

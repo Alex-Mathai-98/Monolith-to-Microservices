@@ -1,0 +1,1262 @@
+[
+  {
+    "service_entry_name": "{type: servlet, servlet: PingUpgradeServlet, uri: [/servlet/PingUpgradeServlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingUpgradeServlet, entrydisplayname: PingUpgradeServlet.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingUpgradeServlet.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingUpgradeServlet, uri: [/servlet/PingUpgradeServlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingUpgradeServlet, entrydisplayname: PingUpgradeServlet.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingUpgradeServlet.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingUpgradeServlet, uri: [/servlet/PingUpgradeServlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingUpgradeServlet, entrydisplayname: PingUpgradeServlet.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingUpgradeServlet.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet30Async, uri: [/servlet/PingServlet30Async], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet30Async, entrydisplayname: PingServlet30Async.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet30Async.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet30Async, uri: [/servlet/PingServlet30Async], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet30Async, entrydisplayname: PingServlet30Async.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet30Async.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet30Async, uri: [/servlet/PingServlet30Async], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet30Async, entrydisplayname: PingServlet30Async.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet30Async.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletWriter, uri: [/servlet/PingServletWriter], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletWriter, entrydisplayname: PingServletWriter.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletWriter.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletWriter, uri: [/servlet/PingServletWriter], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletWriter, entrydisplayname: PingServletWriter.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletWriter.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletWriter, uri: [/servlet/PingServletWriter], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletWriter, entrydisplayname: PingServletWriter.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletWriter.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingReentryServlet, uri: [/servlet/PingReentryServlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingReentryServlet, entrydisplayname: PingReentryServlet.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingReentryServlet.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingReentryServlet, uri: [/servlet/PingReentryServlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingReentryServlet, entrydisplayname: PingReentryServlet.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingReentryServlet.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingReentryServlet, uri: [/servlet/PingReentryServlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingReentryServlet, entrydisplayname: PingReentryServlet.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingReentryServlet.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingManagedExecutor, uri: [/servlet/PingManagedExecutor], entry: com.ibm.websphere.samples.daytrader.web.prims.PingManagedExecutor, entrydisplayname: PingManagedExecutor.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingManagedExecutor.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingManagedExecutor, uri: [/servlet/PingManagedExecutor], entry: com.ibm.websphere.samples.daytrader.web.prims.PingManagedExecutor, entrydisplayname: PingManagedExecutor.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingManagedExecutor.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingManagedExecutor, uri: [/servlet/PingManagedExecutor], entry: com.ibm.websphere.samples.daytrader.web.prims.PingManagedExecutor, entrydisplayname: PingManagedExecutor.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingManagedExecutor.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2IncludeRcv, uri: [/servlet/PingServlet2IncludeRcv], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2IncludeRcv, entrydisplayname: PingServlet2IncludeRcv.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2IncludeRcv.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2IncludeRcv, uri: [/servlet/PingServlet2IncludeRcv], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2IncludeRcv, entrydisplayname: PingServlet2IncludeRcv.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2IncludeRcv.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2IncludeRcv, uri: [/servlet/PingServlet2IncludeRcv], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2IncludeRcv, entrydisplayname: PingServlet2IncludeRcv.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2IncludeRcv.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletLargeContentLength, uri: [/servlet/PingServletLargeContentLength], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletLargeContentLength, entrydisplayname: PingServletLargeContentLength.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletLargeContentLength.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletLargeContentLength, uri: [/servlet/PingServletLargeContentLength], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletLargeContentLength, entrydisplayname: PingServletLargeContentLength.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletLargeContentLength.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletLargeContentLength, uri: [/servlet/PingServletLargeContentLength], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletLargeContentLength, entrydisplayname: PingServletLargeContentLength.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletLargeContentLength.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingSession2, uri: [/servlet/PingSession2], entry: com.ibm.websphere.samples.daytrader.web.prims.PingSession2, entrydisplayname: PingSession2.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingSession2.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingSession2, uri: [/servlet/PingSession2], entry: com.ibm.websphere.samples.daytrader.web.prims.PingSession2, entrydisplayname: PingSession2.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingSession2.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingSession2, uri: [/servlet/PingSession2], entry: com.ibm.websphere.samples.daytrader.web.prims.PingSession2, entrydisplayname: PingSession2.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingSession2.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2ServletRcv, uri: [/servlet/PingServlet2ServletRcv], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2ServletRcv, entrydisplayname: PingServlet2ServletRcv.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2ServletRcv.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2ServletRcv, uri: [/servlet/PingServlet2ServletRcv], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2ServletRcv, entrydisplayname: PingServlet2ServletRcv.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2ServletRcv.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2ServletRcv, uri: [/servlet/PingServlet2ServletRcv], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2ServletRcv, entrydisplayname: PingServlet2ServletRcv.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2ServletRcv.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJDBCWrite, uri: [/servlet/PingJDBCWrite], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJDBCWrite, entrydisplayname: PingJDBCWrite.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJDBCWrite.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJDBCWrite, uri: [/servlet/PingJDBCWrite], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJDBCWrite, entrydisplayname: PingJDBCWrite.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJDBCWrite.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJDBCWrite, uri: [/servlet/PingJDBCWrite], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJDBCWrite, entrydisplayname: PingJDBCWrite.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJDBCWrite.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletCDI, uri: [/servlet/PingServletCDI], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletCDI, entrydisplayname: PingServletCDI.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletCDI.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletCDI, uri: [/servlet/PingServletCDI], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletCDI, entrydisplayname: PingServletCDI.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletCDI.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Jsp, uri: [/servlet/PingServlet2Jsp], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Jsp, entrydisplayname: PingServlet2Jsp.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Jsp.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Jsp, uri: [/servlet/PingServlet2Jsp], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Jsp, entrydisplayname: PingServlet2Jsp.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Jsp.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Jsp, uri: [/servlet/PingServlet2Jsp], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Jsp, entrydisplayname: PingServlet2Jsp.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Jsp.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletCDIBeanManagerViaJNDI, uri: [/servlet/PingServletCDIBeanManagerViaJNDI], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletCDIBeanManagerViaJNDI, entrydisplayname: PingServletCDIBeanManagerViaJNDI.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletCDIBeanManagerViaJNDI.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletCDIBeanManagerViaJNDI, uri: [/servlet/PingServletCDIBeanManagerViaJNDI], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletCDIBeanManagerViaJNDI, entrydisplayname: PingServletCDIBeanManagerViaJNDI.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletCDIBeanManagerViaJNDI.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2JNDI, uri: [/servlet/PingServlet2JNDI], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2JNDI, entrydisplayname: PingServlet2JNDI.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2JNDI.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2JNDI, uri: [/servlet/PingServlet2JNDI], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2JNDI, entrydisplayname: PingServlet2JNDI.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2JNDI.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2JNDI, uri: [/servlet/PingServlet2JNDI], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2JNDI, entrydisplayname: PingServlet2JNDI.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2JNDI.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingSession3, uri: [/servlet/PingSession3], entry: com.ibm.websphere.samples.daytrader.web.prims.PingSession3, entrydisplayname: PingSession3.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingSession3.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingSession3, uri: [/servlet/PingSession3], entry: com.ibm.websphere.samples.daytrader.web.prims.PingSession3, entrydisplayname: PingSession3.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingSession3.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingSession3, uri: [/servlet/PingSession3], entry: com.ibm.websphere.samples.daytrader.web.prims.PingSession3, entrydisplayname: PingSession3.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingSession3.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet31AsyncRead, uri: [/servlet/PingServlet31AsyncRead], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet31AsyncRead, entrydisplayname: PingServlet31AsyncRead.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet31AsyncRead.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet31AsyncRead, uri: [/servlet/PingServlet31AsyncRead], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet31AsyncRead, entrydisplayname: PingServlet31AsyncRead.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet31AsyncRead.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet31AsyncRead, uri: [/servlet/PingServlet31AsyncRead], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet31AsyncRead, entrydisplayname: PingServlet31AsyncRead.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet31AsyncRead.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingSession1, uri: [/servlet/PingSession1], entry: com.ibm.websphere.samples.daytrader.web.prims.PingSession1, entrydisplayname: PingSession1.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingSession1.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingSession1, uri: [/servlet/PingSession1], entry: com.ibm.websphere.samples.daytrader.web.prims.PingSession1, entrydisplayname: PingSession1.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingSession1.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingSession1, uri: [/servlet/PingSession1], entry: com.ibm.websphere.samples.daytrader.web.prims.PingSession1, entrydisplayname: PingSession1.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingSession1.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingManagedThread, uri: [/servlet/PingManagedThread], entry: com.ibm.websphere.samples.daytrader.web.prims.PingManagedThread, entrydisplayname: PingManagedThread.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingManagedThread.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingManagedThread, uri: [/servlet/PingManagedThread], entry: com.ibm.websphere.samples.daytrader.web.prims.PingManagedThread, entrydisplayname: PingManagedThread.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingManagedThread.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingManagedThread, uri: [/servlet/PingManagedThread], entry: com.ibm.websphere.samples.daytrader.web.prims.PingManagedThread, entrydisplayname: PingManagedThread.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingManagedThread.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet, uri: [/servlet/PingServlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet, entrydisplayname: PingServlet.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet, uri: [/servlet/PingServlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet, entrydisplayname: PingServlet.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet, uri: [/servlet/PingServlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet, entrydisplayname: PingServlet.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet31Async, uri: [/servlet/PingServlet31Async], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet31Async, entrydisplayname: PingServlet31Async.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet31Async.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet31Async, uri: [/servlet/PingServlet31Async], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet31Async, entrydisplayname: PingServlet31Async.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet31Async.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet31Async, uri: [/servlet/PingServlet31Async], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet31Async, entrydisplayname: PingServlet31Async.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet31Async.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJDBCRead, uri: [/servlet/PingJDBCRead], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead, entrydisplayname: PingJDBCRead.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJDBCRead, uri: [/servlet/PingJDBCRead], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead, entrydisplayname: PingJDBCRead.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJDBCRead, uri: [/servlet/PingJDBCRead], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead, entrydisplayname: PingJDBCRead.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJSONP, uri: [/servlet/PingJSONP], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJSONP, entrydisplayname: PingJSONP.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJSONP.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJSONP, uri: [/servlet/PingJSONP], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJSONP, entrydisplayname: PingJSONP.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJSONP.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJSONP, uri: [/servlet/PingJSONP], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJSONP, entrydisplayname: PingJSONP.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJSONP.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJDBCRead2JSP, uri: [/servlet/PingJDBCRead2JSP], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead2JSP, entrydisplayname: PingJDBCRead2JSP.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead2JSP.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJDBCRead2JSP, uri: [/servlet/PingJDBCRead2JSP], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead2JSP, entrydisplayname: PingJDBCRead2JSP.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead2JSP.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingJDBCRead2JSP, uri: [/servlet/PingJDBCRead2JSP], entry: com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead2JSP, entrydisplayname: PingJDBCRead2JSP.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingJDBCRead2JSP.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Include, uri: [/servlet/PingServlet2Include], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Include, entrydisplayname: PingServlet2Include.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Include.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Include, uri: [/servlet/PingServlet2Include], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Include, entrydisplayname: PingServlet2Include.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Include.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Include, uri: [/servlet/PingServlet2Include], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Include, entrydisplayname: PingServlet2Include.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Include.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: ExplicitGC, uri: [/servlet/ExplicitGC], entry: com.ibm.websphere.samples.daytrader.web.prims.ExplicitGC, entrydisplayname: ExplicitGC.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ExplicitGC.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: ExplicitGC, uri: [/servlet/ExplicitGC], entry: com.ibm.websphere.samples.daytrader.web.prims.ExplicitGC, entrydisplayname: ExplicitGC.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ExplicitGC.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: ExplicitGC, uri: [/servlet/ExplicitGC], entry: com.ibm.websphere.samples.daytrader.web.prims.ExplicitGC, entrydisplayname: ExplicitGC.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ExplicitGC.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Servlet, uri: [/servlet/PingServlet2Servlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Servlet, entrydisplayname: PingServlet2Servlet.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Servlet.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Servlet, uri: [/servlet/PingServlet2Servlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Servlet, entrydisplayname: PingServlet2Servlet.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Servlet.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Servlet, uri: [/servlet/PingServlet2Servlet], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Servlet, entrydisplayname: PingServlet2Servlet.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2Servlet.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletSetContentLength, uri: [/servlet/PingServletSetContentLength], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletSetContentLength, entrydisplayname: PingServletSetContentLength.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletSetContentLength.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletSetContentLength, uri: [/servlet/PingServletSetContentLength], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletSetContentLength, entrydisplayname: PingServletSetContentLength.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletSetContentLength.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletSetContentLength, uri: [/servlet/PingServletSetContentLength], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletSetContentLength, entrydisplayname: PingServletSetContentLength.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletSetContentLength.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletCDIBeanManagerViaCDICurrent, uri: [/servlet/PingServletCDIBeanManagerViaCDICurrent], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletCDIBeanManagerViaCDICurrent, entrydisplayname: PingServletCDIBeanManagerViaCDICurrent.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletCDIBeanManagerViaCDICurrent.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServletCDIBeanManagerViaCDICurrent, uri: [/servlet/PingServletCDIBeanManagerViaCDICurrent], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServletCDIBeanManagerViaCDICurrent, entrydisplayname: PingServletCDIBeanManagerViaCDICurrent.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServletCDIBeanManagerViaCDICurrent.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2DB, uri: [/servlet/PingServlet2DB], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2DB, entrydisplayname: PingServlet2DB.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2DB.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2DB, uri: [/servlet/PingServlet2DB], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2DB, entrydisplayname: PingServlet2DB.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2DB.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2DB, uri: [/servlet/PingServlet2DB], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2DB, entrydisplayname: PingServlet2DB.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2DB.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2PDF, uri: [/servlet/PingServlet2PDF], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2PDF, entrydisplayname: PingServlet2PDF.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2PDF.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2PDF, uri: [/servlet/PingServlet2PDF], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2PDF, entrydisplayname: PingServlet2PDF.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2PDF.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2PDF, uri: [/servlet/PingServlet2PDF], entry: com.ibm.websphere.samples.daytrader.web.prims.PingServlet2PDF, entrydisplayname: PingServlet2PDF.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2PDF.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2MDBQueue, uri: [/ejb3/PingServlet2MDBQueue], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBQueue, entrydisplayname: PingServlet2MDBQueue.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBQueue.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2MDBQueue, uri: [/ejb3/PingServlet2MDBQueue], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBQueue, entrydisplayname: PingServlet2MDBQueue.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBQueue.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2MDBQueue, uri: [/ejb3/PingServlet2MDBQueue], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBQueue, entrydisplayname: PingServlet2MDBQueue.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBQueue.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2Entity2JSP, uri: [/ejb3/PingServlet2Session2Entity2JSP], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity2JSP, entrydisplayname: PingServlet2Session2Entity2JSP.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity2JSP.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2Entity2JSP, uri: [/ejb3/PingServlet2Session2Entity2JSP], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity2JSP, entrydisplayname: PingServlet2Session2Entity2JSP.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity2JSP.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2Entity2JSP, uri: [/ejb3/PingServlet2Session2Entity2JSP], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity2JSP, entrydisplayname: PingServlet2Session2Entity2JSP.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity2JSP.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2CMROne2Many, uri: [/ejb3/PingServlet2Session2CMR2One2Many], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2Many, entrydisplayname: PingServlet2Session2CMROne2Many.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2Many.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2CMROne2Many, uri: [/ejb3/PingServlet2Session2CMR2One2Many], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2Many, entrydisplayname: PingServlet2Session2CMROne2Many.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2Many.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2CMROne2Many, uri: [/ejb3/PingServlet2Session2CMR2One2Many], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2Many, entrydisplayname: PingServlet2Session2CMROne2Many.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2Many.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2TwoPhase, uri: [/ejb3/PingServlet2TwoPhase], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2TwoPhase, entrydisplayname: PingServlet2TwoPhase.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2TwoPhase.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2TwoPhase, uri: [/ejb3/PingServlet2TwoPhase], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2TwoPhase, entrydisplayname: PingServlet2TwoPhase.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2TwoPhase.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2TwoPhase, uri: [/ejb3/PingServlet2TwoPhase], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2TwoPhase, entrydisplayname: PingServlet2TwoPhase.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2TwoPhase.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2MDBTopic, uri: [/ejb3/PingServlet2MDBTopic], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBTopic, entrydisplayname: PingServlet2MDBTopic.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBTopic.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2MDBTopic, uri: [/ejb3/PingServlet2MDBTopic], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBTopic, entrydisplayname: PingServlet2MDBTopic.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBTopic.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2MDBTopic, uri: [/ejb3/PingServlet2MDBTopic], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBTopic, entrydisplayname: PingServlet2MDBTopic.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBTopic.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2EntityCollection, uri: [/ejb3/PingServlet2Session2EntityCollection], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2EntityCollection, entrydisplayname: PingServlet2Session2EntityCollection.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2EntityCollection.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2EntityCollection, uri: [/ejb3/PingServlet2Session2EntityCollection], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2EntityCollection, entrydisplayname: PingServlet2Session2EntityCollection.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2EntityCollection.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2EntityCollection, uri: [/ejb3/PingServlet2Session2EntityCollection], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2EntityCollection, entrydisplayname: PingServlet2Session2EntityCollection.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2EntityCollection.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2Entity, uri: [/ejb3/PingServlet2Session2Entity], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity, entrydisplayname: PingServlet2Session2Entity.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2Entity, uri: [/ejb3/PingServlet2Session2Entity], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity, entrydisplayname: PingServlet2Session2Entity.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2Entity, uri: [/ejb3/PingServlet2Session2Entity], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity, entrydisplayname: PingServlet2Session2Entity.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2Entity.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2SessionRemote, uri: [/ejb3/PingServlet2SessionRemote], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionRemote, entrydisplayname: PingServlet2SessionRemote.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionRemote.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2SessionRemote, uri: [/ejb3/PingServlet2SessionRemote], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionRemote, entrydisplayname: PingServlet2SessionRemote.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionRemote.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2SessionRemote, uri: [/ejb3/PingServlet2SessionRemote], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionRemote, entrydisplayname: PingServlet2SessionRemote.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionRemote.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2SessionLocal, uri: [/ejb3/PingServlet2SessionLocal], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionLocal, entrydisplayname: PingServlet2SessionLocal.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionLocal.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2SessionLocal, uri: [/ejb3/PingServlet2SessionLocal], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionLocal, entrydisplayname: PingServlet2SessionLocal.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionLocal.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2SessionLocal, uri: [/ejb3/PingServlet2SessionLocal], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionLocal, entrydisplayname: PingServlet2SessionLocal.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2SessionLocal.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2CMROne2One, uri: [/ejb3/PingServlet2Session2CMR2One2One], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2One, entrydisplayname: PingServlet2Session2CMROne2One.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2One.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2CMROne2One, uri: [/ejb3/PingServlet2Session2CMR2One2One], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2One, entrydisplayname: PingServlet2Session2CMROne2One.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2One.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: PingServlet2Session2CMROne2One, uri: [/ejb3/PingServlet2Session2CMR2One2One], entry: com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2One, entrydisplayname: PingServlet2Session2CMROne2One.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Session2CMROne2One.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: JSFLoginFilter, uri: [*.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.JSFLoginFilter, entrydisplayname: JSFLoginFilter.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.JSFLoginFilter.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: JSFLoginFilter, uri: [*.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.JSFLoginFilter, entrydisplayname: JSFLoginFilter.doFilter}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.JSFLoginFilter.doFilter"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: OrdersAlertFilter, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.OrdersAlertFilter, entrydisplayname: OrdersAlertFilter.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.OrdersAlertFilter.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: OrdersAlertFilter, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.OrdersAlertFilter, entrydisplayname: OrdersAlertFilter.doFilter}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.OrdersAlertFilter.doFilter"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.<init>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.<init>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.<clinit>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.<clinit>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doWelcome}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doWelcome"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doLogin}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doLogin"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doHome}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doHome"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doRegister}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doRegister"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doQuotes}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doQuotes"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doBuy}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doBuy"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doSell}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doSell"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doPortfolio}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doPortfolio"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doLogout}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doLogout"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doAccount}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doAccount"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doAccountUpdate}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doAccountUpdate"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.web.TradeServletAction, entrydisplayname: TradeServletAction.doMarketSummary}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doMarketSummary"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeAppServlet, uri: [/app], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setConfigParam}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setConfigParam"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.<clinit>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.<clinit>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.<init>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.<init>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getPage}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getPage"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setRunTimeMode}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setRunTimeMode"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setUseRemoteEJBInterface}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setUseRemoteEJBInterface"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setDisplayOrderAlerts}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setDisplayOrderAlerts"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.useRemoteEJBInterface}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.useRemoteEJBInterface"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setOrderProcessingMode}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setOrderProcessingMode"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setWebInterface}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setWebInterface"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setMAX_USERS}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setMAX_USERS"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setMAX_QUOTES}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setMAX_QUOTES"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getMAX_USERS}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getMAX_USERS"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getMAX_QUOTES}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getMAX_QUOTES"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setMarketSummaryInterval}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setMarketSummaryInterval"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getMarketSummaryInterval}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getMarketSummaryInterval"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setPrimIterations}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setPrimIterations"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getPrimIterations}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getPrimIterations"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setPublishQuotePriceChange}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setPublishQuotePriceChange"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getPublishQuotePriceChange}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getPublishQuotePriceChange"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setPercentSentToWebsocket}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setPercentSentToWebsocket"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getPercentSentToWebsocket}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getPercentSentToWebsocket"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setLongRun}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setLongRun"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getLongRun}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getLongRun"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getDisplayOrderAlerts}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getDisplayOrderAlerts"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.Log, entrydisplayname: Log.setTrace}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.Log.setTrace"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.Log, entrydisplayname: Log.<clinit>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.Log.<clinit>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getTrace}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getTrace"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.Log, entrydisplayname: Log.setActionTrace}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.Log.setActionTrace"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getActionTrace}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getActionTrace"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.beans.RunStatsDataBean, entrydisplayname: RunStatsDataBean.<init>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.beans.RunStatsDataBean.<init>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.TradeAction, entrydisplayname: TradeAction.<clinit>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.TradeAction.<clinit>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.TradeAction, entrydisplayname: TradeAction.<init>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.TradeAction.<init>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.direct.TradeDirect, entrydisplayname: TradeDirect.<clinit>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.direct.TradeDirect.<clinit>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.direct.TradeDirect, entrydisplayname: TradeDirect.<init>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.direct.TradeDirect.<init>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.TradeAction, entrydisplayname: TradeAction.resetTrade}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.TradeAction.resetTrade"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.web.TradeBuildDB, entrydisplayname: TradeBuildDB.<init>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TradeBuildDB.<init>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeConfigServlet, uri: [/config], entry: com.ibm.websphere.samples.daytrader.direct.TradeDirect, entrydisplayname: TradeDirect.checkDBProductName}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.direct.TradeDirect.checkDBProductName"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TestServlet, uri: [/TestServlet], entry: com.ibm.websphere.samples.daytrader.web.TestServlet, entrydisplayname: TestServlet.init}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TestServlet.init"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TestServlet, uri: [/TestServlet], entry: com.ibm.websphere.samples.daytrader.web.TestServlet, entrydisplayname: TestServlet.doGet}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TestServlet.doGet"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TestServlet, uri: [/TestServlet], entry: com.ibm.websphere.samples.daytrader.web.TestServlet, entrydisplayname: TestServlet.doPost}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.TestServlet.doPost"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.incrementScenarioCount}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.incrementScenarioCount"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.<clinit>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.<clinit>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getScenarioAction}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getScenarioAction"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.rndSymbols}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.rndSymbols"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.getUserID}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.getUserID"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.Log, entrydisplayname: Log.doTrace}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.Log.doTrace"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.Log, entrydisplayname: Log.<clinit>}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.Log.<clinit>"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.Log, entrydisplayname: Log.trace}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.Log.trace"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.rndNewUserID}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.rndNewUserID"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.rndFullName}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.rndFullName"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.rndCreditCard}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.rndCreditCard"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.rndBalance}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.rndBalance"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.rndEmail}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.rndEmail"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.rndAddress}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.rndAddress"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.entities.HoldingDataBean, entrydisplayname: HoldingDataBean.getPurchaseDate}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.entities.HoldingDataBean.getPurchaseDate"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.entities.HoldingDataBean, entrydisplayname: HoldingDataBean.getHoldingID}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.entities.HoldingDataBean.getHoldingID"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.incrementSellDeficit}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.incrementSellDeficit"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.rndSymbol}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.rndSymbol"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.rndQuantity}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.rndQuantity"
+    ]
+  },
+  {
+    "service_entry_name": "{type: servlet, servlet: TradeScenarioServlet, uri: [/scenario], entry: com.ibm.websphere.samples.daytrader.util.TradeConfig, entrydisplayname: TradeConfig.setConfigParam}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.util.TradeConfig.setConfigParam"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/config.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.TradeConfigJSF, entrydisplayname: TradeConfigJSF.updateConfig}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeConfigJSF.updateConfig"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/order.faces, /account.faces, /quote.faces, /portfolio.faces, /tradehome.faces, /marketSummary.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF, entrydisplayname: TradeAppJSF.logout}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF.logout"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/order.faces, /account.faces, /quote.faces, /portfolio.faces, /tradehome.faces, /marketSummary.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.QuoteJSF, entrydisplayname: QuoteJSF.getQuotesBySymbols}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.QuoteJSF.getQuotesBySymbols"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/account.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.AccountDataJSF, entrydisplayname: AccountDataJSF.toggleShowAllRows}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.AccountDataJSF.toggleShowAllRows"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/account.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF, entrydisplayname: TradeAppJSF.updateProfile}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF.updateProfile"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/quote.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.QuoteJSF, entrydisplayname: QuoteJSF.buy}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.QuoteJSF.buy"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/portfolio.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.PortfolioJSF, entrydisplayname: PortfolioJSF.sell}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.PortfolioJSF.sell"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/welcome.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF, entrydisplayname: TradeAppJSF.login}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF.login"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/configure.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.TradeConfigJSF, entrydisplayname: TradeConfigJSF.resetTrade}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeConfigJSF.resetTrade"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/configure.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.TradeConfigJSF, entrydisplayname: TradeConfigJSF.buildDatabaseTables}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeConfigJSF.buildDatabaseTables"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/configure.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.TradeConfigJSF, entrydisplayname: TradeConfigJSF.populateDatabase}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeConfigJSF.populateDatabase"
+    ]
+  },
+  {
+    "service_entry_name": "{type: jsf, uri: [/register.faces], entry: com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF, entrydisplayname: TradeAppJSF.register}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.web.jsf.TradeAppJSF.register"
+    ]
+  },
+  {
+    "service_entry_name": "{type: mdb, uri: TradeBrokerQueue, entry: com.ibm.websphere.samples.daytrader.ejb3.DTBroker3MDB, entrydisplayname: DTBroker3MDB.onMessage}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.ejb3.DTBroker3MDB.onMessage"
+    ]
+  },
+  {
+    "service_entry_name": "{type: mdb, uri: TradeStreamerTopic, entry: com.ibm.websphere.samples.daytrader.ejb3.DTStreamer3MDB, entrydisplayname: DTStreamer3MDB.onMessage}",
+    "class_method_name": [
+      "com.ibm.websphere.samples.daytrader.ejb3.DTStreamer3MDB.onMessage"
+    ]
+  }
+]

@@ -1,0 +1,956 @@
+[
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.DTBroker3MDB.onMessage",
+    "resource_type": "queue",
+    "resource_name": "TradeBrokerQueue",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.DTStreamer3MDB.onMessage",
+    "resource_type": "queue",
+    "resource_name": "TradeStreamerTopic",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.register",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.register",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.register",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.register",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.register",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.logout",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.logout",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getAccountData",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getAccountData",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getAccountData",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.sell",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.sell",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.sell",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.sell",
+    "resource_type": "dbtable",
+    "resource_name": "holdingejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.sell",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.sell",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.sell",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.sell",
+    "resource_type": "dbtable",
+    "resource_name": "holdingejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.jsf.PortfolioJSF.getPortfolio",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.jsf.PortfolioJSF.getPortfolio",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.updateAccountProfile",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.updateAccountProfile",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.pingTwoPhase",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.pingTwoPhase",
+    "resource_type": "queue",
+    "resource_name": "TradeBrokerQueue",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.jsf.PortfolioJSF.sell",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.entities.AccountDataBean.login",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.entities.AccountDataBean.login",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.sell",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.sell",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.entities.OrderDataBean.toHTML",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.TradeServletAction.doPortfolio",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.jsf.OrderDataJSF.getAllOrder",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getHolding",
+    "resource_type": "dbtable",
+    "resource_name": "holdingejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getOrders",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getOrders",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getOrders",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.entities.AccountDataBean.logout",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.createOrder",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.createQuote",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.completeOrder",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.completeOrder",
+    "resource_type": "dbtable",
+    "resource_name": "holdingejb",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.completeOrder",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.completeOrder",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.completeOrder",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.completeOrder",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.completeOrder",
+    "resource_type": "dbtable",
+    "resource_name": "holdingejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.completeOrder",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.updateQuotePriceVolume",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getHoldings",
+    "resource_type": "dbtable",
+    "resource_name": "holdingejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.createHolding",
+    "resource_type": "dbtable",
+    "resource_name": "holdingejb",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getClosedOrders",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getClosedOrders",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getClosedOrders",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getAccountProfileData",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getClosedOrders",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getClosedOrders",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getClosedOrders",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.jsf.AccountDataJSF.home",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.jsf.AccountDataJSF.home",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.getQuote",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.buy",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.buy",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.buy",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.buy",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.entities.OrderDataBean.toString",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.TradeAction.sell",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.cancelOrder",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.entities.HoldingDataBean.toHTML",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2Entity.doGet",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.login",
+    "resource_type": "dbtable",
+    "resource_name": "accountprofileejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.login",
+    "resource_type": "dbtable",
+    "resource_name": "accountejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.jsf.QuoteJSF.buy",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.entities.OrderDataBean.cancel",
+    "resource_type": "dbtable",
+    "resource_name": "orderejb",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.MarketSummarySingleton.updateMarketSummary",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.entities.HoldingDataBean.toString",
+    "resource_type": "dbtable",
+    "resource_name": "quoteejb",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getMarketSummary",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getMarketSummary",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getMarketSummary",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getMarketSummary",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getMarketSummary",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.completeOrder",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.createHolding",
+    "resource_type": "dbtable",
+    "resource_name": "HOLDINGEJB",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.removeHolding",
+    "resource_type": "dbtable",
+    "resource_name": "HOLDINGEJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.removeHolding",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.createOrder",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getOrders",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getOrders",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.createQuote",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getQuote",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getQuoteForUpdate",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getAllQuotes",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getHoldings",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getHoldings",
+    "resource_type": "dbtable",
+    "resource_name": "HOLDINGEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getAccountData",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getAccountData",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTPROFILEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getAccountData",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getQuoteData",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getHoldingData",
+    "resource_type": "dbtable",
+    "resource_name": "HOLDINGEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getOrderData",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getAccountProfileData",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getAccountProfileData",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTPROFILEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getAccountProfileData",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.getAccountProfileData",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTPROFILEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.creditAccountBalance",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.updateHoldingStatus",
+    "resource_type": "dbtable",
+    "resource_name": "HOLDINGEJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.updateOrderStatus",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.updateOrderHolding",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.updateAccountProfile",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.updateAccountProfile",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTPROFILEEJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.updateQuotePriceVolume",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.login",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.login",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTPROFILEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.login",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.login",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.login",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTPROFILEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.logout",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.register",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.register",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTPROFILEEJB",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTPROFILEEJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "HOLDINGEJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "HOLDINGEJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTPROFILEEJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "HOLDINGEJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "QUOTEEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "HOLDINGEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ACCOUNTEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.resetTrade",
+    "resource_type": "dbtable",
+    "resource_name": "ORDEREJB",
+    "crud": "D"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.KeySequenceDirect.allocNewBlock",
+    "resource_type": "dbtable",
+    "resource_name": "KEYGENEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.KeySequenceDirect.allocNewBlock",
+    "resource_type": "dbtable",
+    "resource_name": "KEYGENEJB",
+    "crud": "C"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.KeySequenceDirect.allocNewBlock",
+    "resource_type": "dbtable",
+    "resource_name": "KEYGENEJB",
+    "crud": "R"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.KeySequenceDirect.allocNewBlock",
+    "resource_type": "dbtable",
+    "resource_name": "KEYGENEJB",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.queueOrder",
+    "resource_type": "queue",
+    "resource_name": "TradeBrokerQueue",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.direct.TradeDirect.publishQuotePriceChange",
+    "resource_type": "queue",
+    "resource_name": "TradeStreamerTopic",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.queueOrder",
+    "resource_type": "queue",
+    "resource_name": "TradeBrokerQueue",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.ejb3.TradeSLSBBean.publishQuotePriceChange",
+    "resource_type": "queue",
+    "resource_name": "TradeStreamerTopic",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBQueue.doGet",
+    "resource_type": "queue",
+    "resource_name": "BrokerQueue",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.prims.ejb3.PingServlet2MDBTopic.doGet",
+    "resource_type": "queue",
+    "resource_name": "StreamerTopic",
+    "crud": "U"
+  },
+  {
+    "service_name": "com.ibm.websphere.samples.daytrader.web.prims.PingServlet2PDF.doGet",
+    "resource_type": "file",
+    "resource_name": "http://localhost:9080/daytrader/WAS_V7_64-bit_performance.pdf",
+    "crud": "R"
+  }
+]
