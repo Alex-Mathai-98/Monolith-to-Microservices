@@ -4,7 +4,7 @@ This paper explores the idea of using heterogeneous graph neural networks (Het-G
 
 This work was conducted at IBM Research. The authors of this paper are **Alex Mathai**, **Sambaran Bandyopadhyay**, **Utkarsh Desai** and **Srikanth Tamilselvam**. 
 
-Our IJCAI paper can be found [here](https://link-url-here.org). The extended version of our work that containers many more qualitative and quantitative results can be found on [arxiv](https://arxiv.org/pdf/2112.01317.pdf).
+Our IJCAI paper can be found [here](https://www.ijcai.org/proceedings/2022/0542.pdf). The extended version of our work that containers many more qualitative and quantitative results can be found on [arxiv](https://arxiv.org/pdf/2112.01317.pdf).
 
 Below are some steps to run our model.
 
